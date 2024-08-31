@@ -1,0 +1,27 @@
+:root {
+  --accent-text: #1a1a1a;
+  --spec-color: #29abe2;
+  --select-color: #97a1b0;
+  --transition: all 0.4s;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: #fff;
+  font-family: "inter";
+  color: var(--accent-text);
+}
+.body--opened-menu{
+  overflow: hidden;
+}
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  flex-grow: 1;
+}
